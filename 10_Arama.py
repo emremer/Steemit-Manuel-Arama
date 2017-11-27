@@ -12,7 +12,6 @@ import requests
 import selenium
 from selenium import webdriver as web
 from selenium.webdriver.common.keys import Keys
-from datetime import datetime, timedelta
 from turkceisler import *
 
 def e():
@@ -30,8 +29,8 @@ bakilacakEtiket = bakilacakEtiket.decode('1254') ; bakilacakEtiket=TRbaglantiYap
 arananKelime = arananKelime.decode('1254')
 
 
-yogunluk = raw_input(u'Sayfada ne kadar aşağı inilsin?: ')
-yogunluk ==""; yogunluk = 70
+yogunluk = raw_input(u'Sayfada kaç defa aşağı inilsin?: ')
+if yogunluk =="": yogunluk = 70
 yogunluk = int(yogunluk)
 
 #bakilacakEtiket = u'tr'
@@ -44,10 +43,10 @@ yogunluk = int(yogunluk)
 avatarBoyutu = 60 #pixel cinsinden en-boy
 
 
-title = bakilacakEtiket + u" etiketindeki '" + arananKelime + u"' kelimesi Arama Sonuçları "
+title = u"Steemit'te "+ bakilacakEtiket + u" etiketindeki '" + arananKelime + u"' kelimesi Arama Sonuçları "
 
-post = u"<strong>"+ bakilacakEtiket +u"</strong> etiketini <strong>ilk</strong> sırada kullanmış yazılar"
-post = post +u"arasından\n <h1>başlığında **" + arananKelime + u"** geçen yazılar:</h1> <br><br>"
+post = u"Steemit'te <strong>"+ bakilacakEtiket +u"</strong> etiketini <strong>ilk</strong> sırada kullanmış yazılar "
+post = post +u'arasından\n <h1>başlığında <span style="color:#14ab8a">**' + arananKelime + u'**</span> geçen yazılar:</h1> <br><br>'
 
 
 #################################################################
