@@ -1,22 +1,22 @@
-# Steemit Manuel Arama Aparatı
+# Steemit Manuel Arama AparatÄ±
 
-Steemit arama için Google'ı kullanıyor. Ve bu her zaman sağlıklı sonuç vermiyor.
-Steemit Manuel Arama Aparatı, son bir haftadaki tüm yazıların başlıklarında arama yapar.
+Steemit arama iÃ§in Google'Ä± kullanÄ±yor. Ve bu her zaman saÄŸlÄ±klÄ± sonuÃ§ vermiyor.
+Steemit Manuel Arama AparatÄ±, son bir haftadaki tÃ¼m yazÄ±larÄ±n baÅŸlÄ±klarÄ±nda arama yapar.
 
 ---
 
 ### Kurulum
 
-* https://www.python.org/downloads/ adresinden İşletim sistemize uygun Python 2.7+ indiriniz. 
-(Tüm testler Python 2.7+ ile yapılmıştır. Python 3.6+ daha yeni/daha iyidir diyerek onu indirdiğinizde çalışma garantisi yoktur. 
-Python 2.7 ve Python 3.6 ayrı derleyiciler olarak düşünün)
+* https://www.python.org/downloads/ adresinden Ä°ÅŸletim sistemize uygun Python 2.7+ indiriniz. 
+(TÃ¼m testler Python 2.7+ ile yapÄ±lmÄ±ÅŸtÄ±r. Python 3.6+ daha yeni/daha iyidir diyerek onu indirdiÄŸinizde Ã§alÄ±ÅŸma garantisi yoktur. 
+Python 2.7 ve Python 3.6 ayrÄ± derleyiciler olarak dÃ¼ÅŸÃ¼nÃ¼n)
 
-* Kurulum esnasında **Path** ve diğer kutucuklar **seçili halde** kurulum yapınız.
+* Kurulum esnasÄ±nda **Path** ve diÄŸer kutucuklar **seÃ§ili halde** kurulum yapÄ±nÄ±z.
 
-* Başlat'a **cmd** yazıp enter'a basarak, konsolu açınız.
+* BaÅŸlat'a **cmd** yazÄ±p enter'a basarak, konsolu aÃ§Ä±nÄ±z.
 
 * [Resimdeki gibi](https://steemitimages.com/0x0/https://steemitimages.com/DQmeJUVjL7ykRt2NRXq3s6WfyPsLD8SYJgJRuQAmcsUrJB8/pip-install.jpg)
-aşağıdaki kütüphaneleri kurunuz.
+aÅŸaÄŸÄ±daki kÃ¼tÃ¼phaneleri kurunuz.
 
 pip install time
 
@@ -31,19 +31,12 @@ pip install selenium
 pip install datetime
 
 
-* https://sites.google.com/a/chromium.org/chromedriver/downloads adresinden ChromeWebDriver indirin. 
-Zip içinden çıkararak, proje dosyalarının olduğu klasöre çıkartın. 
+*  [chromedriver.exe](https://sites.google.com/a/chromium.org/chromedriver/downloads) aynÄ± klasÃ¶re olmalÄ±dÄ±r.
 
 ---
 
-### Çalıştırma
+### Ã‡alÄ±ÅŸtÄ±rma
 
-10_Arama.py dosyasını içindeki
+10_Arama.py dosyasÄ±nÄ± Python IDE ile aÃ§tÄ±p F5'e basÄ±n. (ya da SublimeText'te Ctrl+B)
 
-<code>
-bakilacakEtiket = u'tr' 
-
-arananKelime = u'ethereum'
-</code>
-
-satırlarına, ilgili etiketi ve aramak istediğiniz kelimeyi girin.
+ilgili etiketi ve aramak istediÄŸiniz kelimeyi girin.
