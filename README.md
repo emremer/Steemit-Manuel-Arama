@@ -13,6 +13,7 @@ pip install selenium
 #### Let's use
 * Open **10_Search.py** with default IDE.
 * Press **F5** 
+
 ![f5.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1511754013/pfdwmu3bvnpqykl5wqq4.png)
 
 * Type *tag* (for exp: *cryptocurrency* )
