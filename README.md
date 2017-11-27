@@ -1,41 +1,20 @@
-# Steemit Manuel Arama Aparatı
-
-Steemit arama için Google'ı kullanıyor. Ve bu her zaman sağlıklı sonuç vermiyor.
-Steemit Manuel Arama Aparatı, son bir haftadaki tüm yazıların başlıklarında arama yapar.
-
----
-
-### Kurulum
-
-* https://www.python.org/downloads/ adresinden İşletim sisteminize uygun **Python 2.7** indirin. 
-(Tüm testler Python 2.7 ile yapılmıştır. Python 3.6+ daha yeni/daha iyidir diyerek onu indirdiğinizde çalışma garantisi yoktur. 
-Python 2.7 ve Python 3.6 bir birinin devamı sayılmaz.)
-
-* Kurulum esnasında **Path** ve diğer kutucuklar **seçili halde** kurulum yapınız.
-
-* Setup sonrası, Başlat'a **cmd** yazıp enter'a basarak, konsolu açınız.
-
-* [Resimdeki gibi](https://steemitimages.com/0x0/https://steemitimages.com/DQmeJUVjL7ykRt2NRXq3s6WfyPsLD8SYJgJRuQAmcsUrJB8/pip-install.jpg)
-aşağıdaki kütüphaneleri kurunuz.
-
+#### Setup 
+* Download and install **[Python 2.7](https://www.python.org/downloads/)** with ***path*** option (tested only on 2.7) (Be careful: 32bit or 64bit)
+* Click windows **Start** button than write **cmd** and than hit enter
+* Install the following libraries as shown in the [picture](https://steemitimages.com/0x0/https://steemitimages.com/DQmeJUVjL7ykRt2NRXq3s6WfyPsLD8SYJgJRuQAmcsUrJB8/pip-install.jpg).
 pip install time
-
 pip install re
-
 pip install os
-
 pip install requests
-
 pip install selenium
-
-
-
-*  [chromedriver.exe](https://sites.google.com/a/chromium.org/chromedriver/downloads) aynı klasöre olmalıdır.
+* [chromedriver.exe](https://sites.google.com/a/chromium.org/chromedriver/downloads) must be the same folder.
 
 ---
+#### Let's use
+* Open **10_Search.py** with default IDE.
+* Press **F5** 
+![f5.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1511754013/pfdwmu3bvnpqykl5wqq4.png)
 
-### Çalıştırma
-
-10_Arama.py dosyasını Python IDE ile açtıp F5'e basın. (ya da SublimeText'te Ctrl+B)
-
-ilgili etiketi ve aramak istediğiniz kelimeyi girin.
+* Type *tag* (for exp: *cryptocurrency* )
+* Type *search key* (for exp: *ether* )
+* Type *How many times pressing END on the page* (for exp: *50* )
