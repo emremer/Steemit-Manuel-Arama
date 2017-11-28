@@ -2,14 +2,15 @@
 * Download and install **[Python 2.7](https://www.python.org/downloads/)** with ***path*** option (tested only on 2.7) (Be careful: 32bit or 64bit)
 * Click windows **Start** button than write **cmd** and than hit enter
 * Install the following libraries as shown in the picture
-![pip-install.jpg](https://steemitimages.com/0x0/https://steemitimages.com/DQmeJUVjL7ykRt2NRXq3s6WfyPsLD8SYJgJRuQAmcsUrJB8/pip-install.jpg).
-<code>
-  pip install time
-  pip install re
-  pip install os
-  pip install requests
-  pip install selenium
+![pip-install.jpg](https://steemitimages.com/0x0/https://steemitimages.com/DQmeJUVjL7ykRt2NRXq3s6WfyPsLD8SYJgJRuQAmcsUrJB8/pip-install.jpg)
+
+<code>pip install time</code>
+<code>pip install re</code>
+<code>pip install os</code>
+<code>pip install requests</code>
+<code>pip install selenium</code>
 </code>
+
 * [chromedriver.exe](https://sites.google.com/a/chromium.org/chromedriver/downloads) must be the same folder.
 
 ---
