@@ -22,4 +22,6 @@ pip install selenium
 
 ![susing-price.png](https://steemitimages.com/DQmV1octJnSWxkMwbVwzc3MTcJwPam7pKgFpx1hUuUrYqUp/susing-price.png)
 
+..and watch it ;)
+
 
