@@ -1,12 +1,12 @@
 ﻿########################################
-## Ay isimlerini Kasim 2017 by Murat Tatar 
+##  Month names, November 2017 by Murat Tatar 
 ## Baglanti fonksiyonu: https://forum.ubuntu-tr.net/index.php?topic=37782.msg453829#msg453829
 ########################################
 
 
 
-def TRbaglantiYap(metin):
-    liste = {"ı": "i",
+def MakeLink(word):
+    list = {"ı": "i",
              "I": "i",
              "Ç": "c",
              "ç": "c",
@@ -20,10 +20,10 @@ def TRbaglantiYap(metin):
              "Ö": "o",
              "ö": "o"}
 
-    metin = metin.encode('utf8', 'replace')
-    for karakter in liste:
-        metin = metin.replace(karakter, liste[karakter])
-    return metin.lower()
+    word = word.encode('utf8', 'replace')
+    for ltr in list:
+        word = word.replace(ltr, list[ltr])
+    return word.lower()
 
 
 
