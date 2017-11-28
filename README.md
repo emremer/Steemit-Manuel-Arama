@@ -17,5 +17,9 @@ pip install selenium
 ![f5.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1511754013/pfdwmu3bvnpqykl5wqq4.png)
 
 * Type *tag* (for exp: *cryptocurrency* )
-* Type *search key* (for exp: *ether* )
+* Type *search key* (for exp: *price* )
 * Type *How many times pressing END on the page* (for exp: *50* )
+
+![susing-price.png](https://steemitimages.com/DQmV1octJnSWxkMwbVwzc3MTcJwPam7pKgFpx1hUuUrYqUp/susing-price.png)
+
+
